@@ -1,0 +1,16 @@
+.page-1-table {
+  width: 100%;
+  border-collapse: collapse;
+  border: 1px solid #aaa;
+}
+
+.page-1-table th {
+  border: 1px solid #aaa;
+  padding: 10px;
+}
+
+.page-1-table td {
+  border: 1px solid #aaa;
+  padding: 10px;
+  text-align: center;
+}

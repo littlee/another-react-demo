@@ -1,0 +1,36 @@
+.page-2-block {
+  float: left;
+  border: 1px solid #aaa;
+  padding: 20px;
+  width: 20%;
+  box-sizing: border-box;
+  position: relative;
+}
+
+.page-2-block:hover .page-2-block-pop {
+  visibility: visible;
+}
+
+.page-2-block-pop {
+  visibility: hidden;
+  color: white;
+  font-size: 32px;
+  position: absolute;
+  background-color: rgba(0,0,0,0.7);
+  padding: 10px;
+  top: 50%;
+  left: 50%;
+}
+
+.page-2-block-pop:before {
+  content: "";
+  width: 0;
+  height: 0;
+  border-style: solid;
+  border-width: 15px;
+  border-color: transparent;
+  border-right-color: rgba(0,0,0,0.7);
+  position: absolute;
+  left: -30px;
+  top: 8px;
+}
