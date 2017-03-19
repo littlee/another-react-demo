@@ -17,7 +17,8 @@ const rootRoute = {
       },
       childRoutes: [
         require('./routes/Page1'),
-        require('./routes/Page2')
+        require('./routes/Page2'),
+        require('./routes/Page3')
       ]
   } ]
 }

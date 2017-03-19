@@ -10,6 +10,7 @@ class Nav extends React.Component {
           <li className="nav-item"><IndexLink activeClassName="active" to="/">Home</IndexLink></li>
           <li className="nav-item"><Link activeClassName="active" to="/page-1">Page1</Link></li>
           <li className="nav-item"><Link activeClassName="active" to="/page-2">Page2</Link></li>
+          <li className="nav-item"><Link activeClassName="active" to="/page-3">Padsadsdge3</Link></li>
         </ul>
       </div>
       )
